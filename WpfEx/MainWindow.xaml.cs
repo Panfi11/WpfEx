@@ -55,7 +55,7 @@ namespace WpfEx
         private void btnPu_Click(object sender, RoutedEventArgs e)
         {
             StreamWriter sw = new StreamWriter("pubbica.txt", false, Encoding.UTF8);
-            for (c = 0; c < array.Length; c++)
+            for (c = 0;c < array.Length; c++)
             {
                 sw.WriteLine($"Posizione {c} : {array[c]} \n");
             }
